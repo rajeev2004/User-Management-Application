@@ -2,6 +2,12 @@
 
 This application is a React-based user management tool that allows users to view, edit, and delete user information. It utilizes a mock API, **ReqRes**, for data fetching and manipulation.
 
+## Login Credentials
+
+* Use the following credentials to login:
+    * **Email:** `eve.holt@reqres.in`
+    * **Password:** `cityslicka`
+
 ## Features
 
 * **User Listing:** Displays a list of users with their avatars, first names, and last names.
@@ -21,12 +27,6 @@ This application is a React-based user management tool that allows users to view
 * **React Router DOM:** For client-side routing.
 * **Axios:** For making HTTP requests to the **ReqRes** mock API.
 * **Local Storage:** For caching and managing user data.
-
-## Login Credentials
-
-* Use the following credentials to login:
-    * **Email:** `eve.holt@reqres.in`
-    * **Password:** `cityslicka`
 
 ## Installation and Setup
 
