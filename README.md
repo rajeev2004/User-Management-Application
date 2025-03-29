@@ -27,8 +27,8 @@ This application is a React-based user management tool that allows users to view
 1.  **Clone the repository:**
 
     ```bash
-    git clone <repository_url>
-    cd <project_directory>
+    git clone https://github.com/rajeev2004/User-Management-Application.git
+    cd User-Management-Application
 
 2.  **Install dependencies:**
 
@@ -43,7 +43,6 @@ This application is a React-based user management tool that allows users to view
 4.  **Open the application in your browser:**
 
     Go to `http://localhost:5173` in your web browser.
-
 
 ## Assumptions and Considerations
 
@@ -65,3 +64,8 @@ This application is a React-based user management tool that allows users to view
 * `PUT https://reqres.in/api/users/{id}`: Updates user details.
 * `DELETE https://reqres.in/api/users/{id}`: Deletes a user.
 
+## Demo
+
+You can check out the live website [here](https://rajeev2004.github.io/User-Management-Application/)
+
+![ClickStayDine Screenshot](https://github.com/rajeev2004/User-Management-Application/blob/main/src/assets/user-Management-ss.png?raw=true)
