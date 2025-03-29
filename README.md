@@ -22,6 +22,12 @@ This application is a React-based user management tool that allows users to view
 * **Axios:** For making HTTP requests to the **ReqRes** mock API.
 * **Local Storage:** For caching and managing user data.
 
+## Login Credentials
+
+* Use the following credentials to login:
+    * **Email:** `eve.holt@reqres.in`
+    * **Password:** `cityslicka`
+
 ## Installation and Setup
 
 1.  **Clone the repository:**
