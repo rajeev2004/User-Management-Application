@@ -11,14 +11,15 @@ function Login(){
         e.preventDefault();
         try{
             const response=await API.post("/api/login",{email,password});
-            if(response.data.error){
-                setError(response.data.error);
-            }else{
-                localStorage.setItem('token',response.data.token);
-                navigate('/userList');
+            console.log(response.data);
+            if(password!=="cityslicka"){ 
+                setError("Incorrect password! Please try again.");
+                return;
             }
+            localStorage.setItem('token',response.data.token);
+            navigate('/userList');
         }catch(err){
-            setError(err.message || 'login failed! Invalid Credentials');
+            setError('login failed! Invalid Credentials' || err.message);
         }
     }
     return(
