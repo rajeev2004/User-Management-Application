@@ -11,8 +11,12 @@ function Login(){
         e.preventDefault();
         try{
             const response=await API.post("/api/login",{email,password});
-            localStorage.setItem('token',response.data.token);
-            navigate('/userList');
+            if(response.data.error){
+                setError(response.data.error);
+            }else{
+                localStorage.setItem('token',response.data.token);
+                navigate('/userList');
+            }
         }catch(err){
             setError(err.message || 'login failed! Invalid Credentials');
         }
